@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.imagelist {
+  /* border: 5px rebeccapurple solid; */
+  width: 90vw;
+  margin: 0 auto;
+  /* height: 90vh; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows: repeat(0, 14vw); */
+  grid-gap: 15px;
+}
+.imagelist img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
